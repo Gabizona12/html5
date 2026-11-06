@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4f7;
+    color: #444;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d94f78;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* Menu */
+nav {
+    background-color: #a92e55;
+    text-align: center;
+    padding: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    color: #ffd6e2;
+}
+
+/* Conteúdo */
+main {
+    width: 85%;
+    margin: auto;
+    padding: 25px;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #e8c5d0;
+}
+
+h2 {
+    color: #c43d68;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Imagens */
+.imagem {
+    text-align: center;
+}
+
+.imagem img {
+    width: 40%;
+    height: 230px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+/* Quem somos */
+#quem-somos {
+    background-color: #ffe3ec;
+}
+
+/* Dica */
+aside {
+    background-color: #f7c5d5;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 12px;
+    text-align: center;
+    color: #7d2947;
+}
+
+/* Rodapé */
+footer {
+    background-color: #a92e55;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
